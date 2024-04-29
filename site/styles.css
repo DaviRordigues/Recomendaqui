@@ -1,38 +1,104 @@
-.corpo-recomendaqui {
-  font-family: Arial, sans-serif;
+body, html {
   margin: 0;
   padding: 0;
-  background-color: #fff;
-  color: #333;
+  font-family: Arial, sans-serif;
+  background: #f2f0fa;
+
 }
+
 .nav-recomendaqui {
-  background-color: #333;
-  color: #fff;
+  background: #f2f0fa;
   padding: 10px 0;
   text-align: center;
+  border-bottom: 5px solid #333;
 }
+
 .nav-recomendaqui ul {
-  list-style: none;
   padding: 0;
+  margin: 0;
 }
+
 .nav-recomendaqui ul li {
   display: inline;
   margin-right: 20px;
 }
+
+.nav-recomendaqui ul li:last-child {
+  margin-right: 0;
+}
+
 .nav-recomendaqui ul li a {
   text-decoration: none;
-  color: #fff;
+  color: #333;
 }
-.titulo {
+
+@media (max-width: 768px) {
+  .nav-recomendaqui ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-recomendaqui ul li {
+    display: block;
+    margin-bottom: 10px;
+  }
+}
+.header-recomendaqui {
+  background: #f2f0fa;
   text-align: center;
   padding: 50px 0;
 }
+
+.header-recomendaqui h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.header-recomendaqui p {
+  font-size: 1.2rem;
+}
+
 .footer-recomendaqui {
-  background-color: #333;
-  color: #fff;
+  background: #f2f0fa;
+  color: #333;
   text-align: center;
   padding: 10px 0;
   position: fixed;
   bottom: 0;
   width: 100%;
+  border-top: 5px solid #333;
+
 }
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: #f2f0fa;
+}
+.botao-nav {
+  background-color: #4c007d;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.botao-nav:hover {
+  background-color: #1b004b;
+}
+.btn-recomende {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-recomende:hover {
+  background-color: #45a049;
+}
+

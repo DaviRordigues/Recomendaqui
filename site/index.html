@@ -1,34 +1,44 @@
 <!DOCTYPE html>
-
 <html lang="pt-br">
-  <head>
+<head>
     <meta charset="utf-8" />
     <title>Recomenda-aqui</title>
     <meta name="description" content="Choo Choo!" />
-
     <link rel="icon" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
-    <link rel="stylesheet" href="/styles.css" />
-  </head>
+</head>
 
-  <body class="corpo-recomendaqui">
-  <nav class="nav-recomendaqui">
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Informações</a></li>
-      <li><a href="#">Entrar</a></li>
-    </ul>
-  </nav>
- <div class="titulo">
-  <h1>RECOMENDAQUI</h1>
-  <p>O site feito para você achar os melhores proficionais perto de você</p>
- </div>
-  <footer class="footer-recomendaqui">
-    <p>Rodapé - © 2024 Meu Site</p>
-  </footer>
-    </main>
+<body class="corpo-recomendaqui">
+<nav class="nav-recomendaqui">
+    <div class="container">
+        <ul>
+            <li><button class="botao-nav" onclick="criarConta()">Criar Conta</button></li>
+            <li><button class="botao-nav" onclick="exibirInformacoes()">Informações</button></li>
+            <li><button class="botao-nav" onclick="entrar()">Entrar</button></li>
+        </ul>
+    </div>
+</nav>
 
-    <script src="/script.js"></script>
-  </body>
+<header class="header-recomendaqui">
+    <div class="container">
+        <img src="logo.jpg">
+        <p>O site feito para você achar os melhores profissionais perto de você</p>
+        <button class="btn-recomende" onclick="exibirPopUp()">Recomende</button>
+    </div>
+</header>
+
+
+
+<footer class="footer-recomendaqui">
+    <p> RECOMENDAQUI - © 2024 </p>
+
+</footer>
+<script src="script.js"></script>
+
+
+</body>
 </html>
