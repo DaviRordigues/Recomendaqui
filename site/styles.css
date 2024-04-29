@@ -5,12 +5,49 @@ body, html {
   background: #f2f0fa;
 
 }
+.header-recomendaqui {
+  background: #f2f0fa;
+  text-align: center;
+  padding: 50px 0;
+}
 
+.header-recomendaqui h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.header-recomendaqui   p {
+  font-size: 1.2rem;
+}
+
+
+.btn-recomende {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-recomende:hover {
+  background-color: #45a049;
+}
+.card-footer {
+  text-align: center;
+}
+
+.card-body {
+  margin-top: 20px;
+}
 .nav-recomendaqui {
   background: #f2f0fa;
   padding: 10px 0;
   text-align: center;
-  border-bottom: 5px solid #333;
+
+
 }
 
 .nav-recomendaqui ul {
@@ -44,37 +81,8 @@ body, html {
     margin-bottom: 10px;
   }
 }
-.header-recomendaqui {
-  background: #f2f0fa;
-  text-align: center;
-  padding: 50px 0;
-}
 
-.header-recomendaqui h1 {
-  font-size: 3rem;
-  margin-bottom: 10px;
-}
 
-.header-recomendaqui p {
-  font-size: 1.2rem;
-}
-
-.footer-recomendaqui {
-  background: #f2f0fa;
-  color: #333;
-  text-align: center;
-  padding: 10px 0;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  border-top: 5px solid #333;
-
-}
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  background: #f2f0fa;
-}
 .botao-nav {
   background-color: #4c007d;
   color: #fff;
@@ -82,23 +90,11 @@ body, html {
   border: none;
   cursor: pointer;
   font-size: 16px;
+  border-radius: 20px; /* Adiciona cantos arredondados */
+  transition: background-color 0.3s ease; /* Adiciona efeito de transição */
 }
 
 .botao-nav:hover {
   background-color: #1b004b;
-}
-.btn-recomende {
-  background-color: #4CAF50;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 16px;
-  transition: background-color 0.3s ease;
-}
-
-.btn-recomende:hover {
-  background-color: #45a049;
 }
 
